@@ -1,0 +1,70 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 531px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+}
+.container{
+    background-image: url('Bc1.jpg');
+    background-size: cover;
+    color: white;
+    padding: 13px;
+    border-radius: 24px;
+    max-width: 413px;
+    width: 100%;
+    position: relative;
+}
+
+h5.bank-name{
+    display: flex;
+    float: right;
+    font-size: 16px;
+}
+
+.logo img{
+    width: 26px;
+    height: 21px;
+    display: flex;
+    margin: 0px 8px;
+}
+
+.chip{
+    width: 43px;
+    margin: 34px 1px 7px 3px;
+}
+.container .cardDetails{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Visa{
+    font-size: 35px;
+}
+
+h5.name{
+    margin-top: 20px;
+}
+
+#date{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.CN{
+    font-size: 13px;
+}
+
+.number{
+    font-size: 16px;
+}
